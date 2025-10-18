@@ -1,3 +1,7 @@
+--Platform used: My SQL Workbench
+--Table used: hdhi_admission_data
+--Source: Kaggle
+
 # 1-List all patients records where outcome='discharge' ?
 SELECT * 
 FROM hdhi_admission_data
