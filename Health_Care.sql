@@ -73,7 +73,7 @@ SELECT *
 
  # 14-List patients who developed CVA INFARCT or CVA BLEED during admission ?
  SELECT *
- FROM hdhi_admission_data                                                                                        --getting records for who have cva or cva bleed
+ FROM hdhi_admission_data                                                                                           --getting records for who have cva or cva bleed
  WHERE CVA_CEREBRO_VASCULAR_ACCIDENT_INFRACT = 1 OR CVA_CEREBROVASCULAR_ACCIDENT_BLEED = 1;
 
  # 15-Find the total number of patients who were admitted in each Month-Year ?
@@ -124,7 +124,7 @@ where CARDIOGENIC_SHOCK = 1 or PULMONARY_EMBOLISM = 1;
 
 # 24-Count how many patients developed AF (Atrial Fibrillation), VT (Ventricular Tachycardia), or PSVT ?
 select count(*) as total_count
-from hdhi_admission_data                                                                                --counting for who have af,vt or psvt
+from hdhi_admission_data                                                                                     --counting for who have af,vt or psvt
 where (AF_ATRIAL_FIBRILATION = 1 and VT_VENTRICULAR_TACHYCARDIA = 1) or (PSVT_PAROXYSMAL_SUPRA_VENTRICULAR_TACHYCARDIA = 1);
 
 # 25-Find the average HB (Haemoglobin) for male vs female patients with SEVERE ANAEMIA ?
