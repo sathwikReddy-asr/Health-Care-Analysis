@@ -20,7 +20,7 @@ FROM hdhi_admission_data;
 
 # 3-Retrieve all records where AGE is less than 30 and has Diabetes Mellitus (DM = 1) ?
 SELECT *
- FROM hdhi_admission_data                                                                                               --selecting records with less than 30 age and have dm
+ FROM hdhi_admission_data                                                                                                --selecting records with less than 30 age and have dm
  WHERE AGE <30 AND DM_Diabetees_Mellitus = 1;
 
 # 4-Find the average hospital stay duration (DURATION OF STAY) ?
