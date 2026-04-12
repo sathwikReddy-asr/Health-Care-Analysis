@@ -39,7 +39,7 @@ SELECT *
 
  # 7-Retrieve patients with Severe Anaemia and their Haemoglobin (HB) levels ?
  SELECT MRD_NO,AGE,HB_HAEMOGLOBIN
- FROM hdhi_admission_data                                                                                             --selecting mrd,age and hb who have sa                                                                             
+ FROM hdhi_admission_data                                                                                               --selecting mrd,age and hb who have sa                                                                             
  WHERE SEVERE_ANAEMIA = 1;
 
  # 8-Find patients whose Glucose levels are above 200 ?
