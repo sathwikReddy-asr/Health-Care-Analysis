@@ -49,7 +49,7 @@ SELECT *
 
  # 9-Count patients who had Hypertension (HTN) but no Diabetes ?
  SELECT COUNT(*) AS TOTAL_COUNT
- FROM hdhi_admission_data                                                                                            --counting patients who have htn and do not have db
+ FROM hdhi_admission_data                                                                                             --counting patients who have htn and do not have db
  WHERE HTN_HYPERTENSION = 1 AND DM_Diabetees_Mellitus = 0;
 
  # 10-List distinct values of OUTCOME observed in the dataset ?
