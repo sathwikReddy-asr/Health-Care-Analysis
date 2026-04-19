@@ -34,7 +34,7 @@ SELECT *
 
  # 6-Count how many patients had STEMI (ST Elevation Myocardial Infarction) ?
  SELECT COUNT(*) AS COUNT_OF_STEMI
- FROM hdhi_admission_data                                                                                                --counting patients with stemi
+ FROM hdhi_admission_data                                                                                                 --counting patients with stemi
  WHERE STEMI_ST_ELEVATION_MYOCADIAL_INFARCTION = 1;
 
  # 7-Retrieve patients with Severe Anaemia and their Haemoglobin (HB) levels ?
