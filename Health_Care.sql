@@ -29,7 +29,7 @@ SELECT *
 
  # 5-List all patients who had CKD (Chronic Kidney Disease) and Heart Failure together ?
  SELECT *
- FROM hdhi_admission_data                                                                                                 --selecting all records with ckd and hf
+ FROM hdhi_admission_data                                                                                                --selecting all records with ckd and hf
  WHERE CKD_CHRONIC_KIDNEY_DISEASE = 1 AND HEART_FAILURE = 1;
 
  # 6-Count how many patients had STEMI (ST Elevation Myocardial Infarction) ?
