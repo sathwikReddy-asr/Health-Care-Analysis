@@ -43,7 +43,7 @@ SELECT *
  WHERE SEVERE_ANAEMIA = 1;
 
  # 8-Find patients whose Glucose levels are above 200 ?
- SELECT *                                                                                                              --selecting all records who have glucose levels are above 200
+ SELECT *                                                                                                               --selecting all records who have glucose levels are above 200
  FROM hdhi_admission_data
  WHERE GLUCOSE > 200;
 
