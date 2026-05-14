@@ -4,7 +4,7 @@
 
 # 1-List all patients records where outcome='discharge' ?
 SELECT * 
-FROM hdhi_admission_data                                                                                              --selecting all records where outcome is discharge
+FROM hdhi_admission_data                                                                                               --selecting all records where outcome is discharge
 WHERE OUTCOME = 'DISCHARGE';
 
 # 2-Find the number of patients who were admitted through EMERGENCY vs OPD ?
