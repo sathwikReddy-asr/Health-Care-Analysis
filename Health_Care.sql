@@ -73,7 +73,7 @@ SELECT *
 
  # 14-List patients who developed CVA INFARCT or CVA BLEED during admission ?
  SELECT *
- FROM hdhi_admission_data                                                                                           --getting records for who have cva or cva bleed
+ FROM hdhi_admission_data                                                                                             --getting records for who have cva or cva bleed
  WHERE CVA_CEREBRO_VASCULAR_ACCIDENT_INFRACT = 1 OR CVA_CEREBROVASCULAR_ACCIDENT_BLEED = 1;
 
  # 15-Find the total number of patients who were admitted in each Month-Year ?
