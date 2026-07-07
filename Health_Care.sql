@@ -34,12 +34,12 @@ WHERE AGE <30 AND DM_Diabetees_Mellitus = 1;
 
  # 6-Count how many patients had STEMI (ST Elevation Myocardial Infarction) ?
  SELECT COUNT(*) AS COUNT_OF_STEMI
- FROM hdhi_admission_data                                                                                                 --counting patients with stemi
+ FROM hdhi_admission_data                                                                                                  --counting patients with stemi
  WHERE STEMI_ST_ELEVATION_MYOCADIAL_INFARCTION = 1;
 
  # 7-Retrieve patients with Severe Anaemia and their Haemoglobin (HB) levels ?
  SELECT MRD_NO,AGE,HB_HAEMOGLOBIN
- FROM hdhi_admission_data                                                                                               --selecting mrd,age and hb who have sa                                                                             
+ FROM hdhi_admission_data                                                                                                --selecting mrd,age and hb who have sa                                                                             
  WHERE SEVERE_ANAEMIA = 1;
 
  # 8-Find patients whose Glucose levels are above 200 ?
