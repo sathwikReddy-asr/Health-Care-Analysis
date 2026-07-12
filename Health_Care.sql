@@ -25,7 +25,7 @@ WHERE AGE <30 AND DM_Diabetees_Mellitus = 1;
 
 # 4-Find the average hospital stay duration (DURATION OF STAY) ?
 SELECT AVG(DURATION_OF_STAY)
- FROM hdhi_admission_data;                                                                                                  --selecting average stay
+FROM hdhi_admission_data;                                                                                                  --selecting average stay
 
  # 5-List all patients who had CKD (Chronic Kidney Disease) and Heart Failure together ?
  SELECT *
