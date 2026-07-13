@@ -82,7 +82,7 @@ FROM hdhi_admission_data;                                                       
  GROUP BY 1;
 
 # 16-List all patients who had both (HFREF) and RAISED CARDIAC ENZYMES.
- select * 
+select * 
  from hdhi_admission_data                                                                                        --getting records for who have both hfref and rce
  where RAISED_CARDIAC_ENZYMES = 1 and HFREF_HEART_FAILURE_WITH_REDUCED_EJECTION_FRACTION = 1;
 
