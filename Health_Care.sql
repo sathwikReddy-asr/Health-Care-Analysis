@@ -54,7 +54,7 @@ FROM hdhi_admission_data;                                                       
 
  # 10-List distinct values of OUTCOME observed in the dataset ?
  SELECT DISTINCT(OUTCOME)
- FROM hdhi_admission_data;                                                                                             --getting unique values in outcome
+ FROM hdhi_admission_data;                                                                                                --getting unique values in outcome
 
  # 11-Find the minimum, maximum, and average EF (Ejection Fraction) among patients ?
  SELECT MAX(EF_EJECTION_FRACTION) AS MAXIMUM,MIN(EF_EJECTION_FRACTION) AS MINIMUM,AVG(EF_EJECTION_FRACTION) AS AVERAGE     --selecting max,min,avg of ef
