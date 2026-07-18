@@ -78,7 +78,7 @@ FROM hdhi_admission_data;                                                       
 
  # 15-Find the total number of patients who were admitted in each Month-Year ?
  SELECT MONTH_YEAR,COUNT(*) AS TOTAL_COUNT
- FROM hdhi_admission_data                                                                                         --counting patients admitted per month_year
+ FROM hdhi_admission_data                                                                                           --counting patients admitted per month_year
  GROUP BY 1;
 
 # 16-List all patients who had both (HFREF) and RAISED CARDIAC ENZYMES.
