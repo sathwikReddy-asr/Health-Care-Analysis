@@ -93,7 +93,7 @@ select *
 
  # 18-Count the number of patients who are SMOKERS and consume ALCOHOL and also have CAD ?
  select * 
- from hdhi_admission_data                                                                                 --counting patients who have smoking,drinking and cad
+ from hdhi_admission_data                                                                                   --counting patients who have smoking,drinking and cad
  where SMOKING = 1 and ALCOHOL = 1 and CAD_CORONARY_ARTERY_DISEASE = 1;
 
  # 19-Retrieve all patients with UREA > 50 or CREATININE > 1.5 to identify possible renal impairment ?
