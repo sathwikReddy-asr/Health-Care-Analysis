@@ -88,7 +88,7 @@ select *
 
  # 17-Find all patients with Platelets < 150,000 and TLC > 11,000, indicating potential infection or blood disorder ?
  select * 
- from hdhi_admission_data                                                                                      --getting records for who have less platelets than 150000 and tlc is greater than 11000
+ from hdhi_admission_data                                                                                        --getting records for who have less platelets than 150000 and tlc is greater than 11000
  where TLC_TOTAL_LEUKOCYTES_COUNT > 11 and PLATELETS <15;
 
  # 18-Count the number of patients who are SMOKERS and consume ALCOHOL and also have CAD ?
