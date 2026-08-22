@@ -83,7 +83,7 @@ FROM hdhi_admission_data;                                                       
 
 # 16-List all patients who had both (HFREF) and RAISED CARDIAC ENZYMES.
 select * 
- from hdhi_admission_data                                                                                          --getting records for who have both hfref and rce
+ from hdhi_admission_data                                                                                            --getting records for who have both hfref and rce
  where RAISED_CARDIAC_ENZYMES = 1 and HFREF_HEART_FAILURE_WITH_REDUCED_EJECTION_FRACTION = 1;
 
  # 17-Find all patients with Platelets < 150,000 and TLC > 11,000, indicating potential infection or blood disorder ?
